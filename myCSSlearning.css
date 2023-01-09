@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: cadetblue;
+}
+.navbar{
+    flex: 1;
+    height: 50px;
+    background-color: darkgray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-size: 2rem;
+    font-family: poppins,Arial, Helvetica, sans-serif;
+    color: white;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    
+    
+  
+}
+li{
+    flex: 1;
+    margin: 10px;
+    background-color: aquamarine;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+
+ul a{
+    text-decoration: none;
+    margin: 30px;
+}
