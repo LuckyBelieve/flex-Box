@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background-color: aqua; */
+}
+h1 ,h2{
+    background-color: black !important ;
+    color: antiquewhite;
+    background-color: cadetblue;
+}

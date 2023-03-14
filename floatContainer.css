@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    color: white;
+    font-size: 1.3em;
+}
+.container>div{
+    height: 40px;
+}
+.container>div:first-child{
+    margin: 5px;
+    background-color: coral;
+    float: left;
+}
+.container>div:nth-child(2){
+   background-color: blue;
+}
+.container>div:nth-child(3){
+  background-color: aquamarine;
+}
+.container>div:nth-child(4){
+  background-color: red;
+}
+.container>div:nth-child(2){
+  background-color: cadetblue;
+}
